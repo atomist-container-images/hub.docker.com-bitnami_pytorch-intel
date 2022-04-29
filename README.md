@@ -1,0 +1,1 @@
+# hub.docker.com-bitnami_pytorch-intel
