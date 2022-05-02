@@ -1,9 +1,18 @@
-# Tags: latest, 1.10.2-debian-10-r8, 1.10.2, 1.10-debian-10, 1.10
+# Tags: latest, 1.10.2-debian-10-r11, 1.10.2, 1.10-debian-10, 1.10
 FROM bitnami/pytorch-intel:latest
-FROM bitnami/pytorch-intel:1.10.2-debian-10-r8
+FROM bitnami/pytorch-intel:1.10.2-debian-10-r11
 FROM bitnami/pytorch-intel:1.10.2
 FROM bitnami/pytorch-intel:1.10-debian-10
 FROM bitnami/pytorch-intel:1.10
+
+# Tags: 1.10.2-debian-10-r10
+FROM bitnami/pytorch-intel:1.10.2-debian-10-r10
+
+# Tags: 1.10.2-debian-10-r9
+FROM bitnami/pytorch-intel:1.10.2-debian-10-r9
+
+# Tags: 1.10.2-debian-10-r8
+FROM bitnami/pytorch-intel:1.10.2-debian-10-r8
 
 # Tags: 1.10.2-debian-10-r7
 FROM bitnami/pytorch-intel:1.10.2-debian-10-r7
